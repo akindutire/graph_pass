@@ -1,0 +1,97 @@
+/*
+Zerotheme.com | Free Html5 Responsive Templates
+Author URI: http://www.zerotheme.com/
+*/
+
+html { -webkit-text-size-adjust: none;}
+.video embed,.video object,.video iframe { width: 100%;  height: auto;}
+
+
+@media only screen and (min-width: 960px) {
+	img{width: 100%;}
+	#logo{height: 80px; width: 100%;}
+	#logo img{height:75px; width: auto;}
+	#menu-wrapper{width: 100%;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+
+	
+	#page #content{min-width: 700px; height: auto;}
+	#page #sidebar{min-width: 255px; height: auto;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	img{width: 100%;}
+	#logo{height: 75px;}
+	#logo img{height: 70px; width: auto;}
+	#menu-wrapper{width: 100%;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+	body{font-size:9pt;}
+	
+	
+	#page #content{width: 70%; height: auto;}
+	#page #sidebar{width: 20%; height: auto;}
+		#sidebar .box2{width: 100px; height: auto;}
+}
+
+@media only screen and (max-width: 800px) {
+	
+	img{width: 100%;}
+	#logo{height: 70px;}
+	#logo img{height: 65px; width: auto;}
+	#menu-wrapper{width: 100%;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+	body{font-size:8pt;}
+	
+	
+	#page #content{width: 70%; height: auto;}
+	#page #sidebar{width: 20%; height: auto;}
+		
+
+}
+
+@media only screen and (max-width: 468px) {
+
+	img{width: 100%;}
+	#logo{height: 65px;}
+	#logo img{height: 60px; width: auto;}
+	#menu-wrapper{width: 100%;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+	body{font-size:7pt;}
+	
+	#page #content{width: 100%; height: auto; float: none;}
+	#page #sidebar{width: 100%; height: auto; float: none;}
+}
+@media only screen and (max-width: 320px) {
+
+	img{width: 100%;}
+	#logo{height: 55px;}
+	#logo img{height: 50px; width: auto;}
+	body{font-size: 9px; }
+	#menu-wrapper{width: 100%;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+	body{font-size:6pt;}
+
+	#page #content{width: 98%; margin-left: 1%; margin-right: 1%; height: auto; float: none;}
+	#page #sidebar{width: 98%; margin-left: 1%; margin-right: 1%; height: auto; float: none;}
+}
+@media only screen and (max-width: 240px) {
+
+	img{width: 100%;}
+	#logo{height: 45px;}
+	#logo img{height: 40px; width: auto;}
+	body{font-size: 9px; }
+	#menu-wrapper{width: 100%; height: auto;}
+	#menu{width: 100%; height: auto;}
+	#menu ul{display: block;}
+	body{font-size:5pt;}
+
+	#page{max-width:240px;}
+	#page #content{width: 98%; margin-left: 1%; margin-right: 1%; height: auto; float: none;}
+	#page #sidebar{width: 98%; margin-left: 1%; margin-right: 1%; height: auto; float: none;}
+}
+

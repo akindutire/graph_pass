@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'amble';
+    src:url(../fonts/Amble-Regular-webfont.ttf) format('truetype');
+}
+
+	/*TABLES*/
+	
+	
+	#content table{
+		margin:0 auto;
+		margin-left: 0px;
+		border-bottom:0px;
+		border-top:0px;
+		border-collapse:collapse;
+		table-layout: auto;
+		width: 100%;
+		text-align: center;
+		overflow-x: auto;
+		overflow-y: auto;
+		}
+	#content tr{
+		padding:5px;
+		width:100%;
+		color:black;
+		font-family:amble;
+		font-size:14px;
+		}
+	
+	
+	tr:nth-child(odd){
+		background:rgba(243, 243, 243, 0.89);
+		}
+	
+	tr:nth-child(even){
+		background:white;
+		}
+		
+	#content tr td{
+		font-family:amble;
+		border-right:1px solid white;
+		margin:1px;
+		padding: 7px;
+		}
+	th{
+		font-weight:100;
+		padding: 7px;
+		border-radius: 0px;
+		color:white; 
+		font-family:amble;
+		background:rgba(81, 167, 0, 0.86);
+		
+		}
+
+	
+	/*TABLES*/
